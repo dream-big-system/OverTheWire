@@ -1,0 +1,29 @@
+bandit5@bandit:~$ ls
+inhere
+bandit5@bandit:~$ cd inhere
+bandit5@bandit:~/inhere$ ls -lh
+total 80K
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere00
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere01
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere02
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere03
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere04
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere05
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere06
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere07
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere08
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere09
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere10
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere11
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere12
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere13
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere14
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere15
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere16
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere17
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere18
+drwxr-x--- 2 root bandit5 4.0K Oct 16  2018 maybehere19
+bandit5@bandit:~/inhere$ find -size 1033c
+./maybehere07/.file2
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
